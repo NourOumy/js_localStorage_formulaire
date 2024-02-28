@@ -1,0 +1,68 @@
+body{
+    background-color: antiquewhite;
+    
+}
+.wrapper{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+
+}
+
+.active{
+    position: absolute;
+    left: 0;
+    transform: translateX(-100%);
+    transition:  .8s all ease;
+}
+
+input{
+    padding: 10px;
+    width: 90%;
+    border: 0;
+    background-color: antiquewhite;
+}
+
+.formulaire, .avatarBox{
+    width: 500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: rgba(110, 173, 168, 0.671);
+    transition: .8s all ease;
+    
+    button{
+        cursor: pointer;
+        padding: 10px;
+        border: 0;
+        background-color: antiquewhite;
+        margin-bottom: 20px;
+
+    }
+}
+
+.settings{
+        margin-left: 95%;
+        cursor: pointer;
+        z-index: 5;
+    }
+
+.avatarImg{
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+.welcome, .formulaire{
+font-size: 25px;
+font-weight: bold;
+
+}
